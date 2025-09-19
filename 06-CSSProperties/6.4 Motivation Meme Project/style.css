@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: "Libre Baskerville";
+  text-transform: uppercase;
+}
+
+.text-white {
+  color: white;
+}
+
+.w-50 {
+  width: 50%;
+  margin: 5% auto;
+}
+
+.border-5 {
+  border: 5px solid white;
+}
+
+.img-100 {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-2 {
+  margin: 2%;
+}

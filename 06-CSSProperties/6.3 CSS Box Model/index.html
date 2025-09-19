@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Box Model</title>
+    <style>
+      /* Write your CSS code here */
+      .square-200 {
+        width: 200px;
+        height: 200px;
+      }
+      .square-cadetblue {
+        background-color: cadetblue;
+      }
+
+      .square-gold {
+        background-color: gold;
+      }
+
+      .square-indianred {
+        background-color: indianred;
+      }
+
+      .p-20 {
+        padding: 20px;
+      }
+      .border-10 {
+        border: 10px solid black;
+      }
+      .m-0 {
+        margin: 0;
+      }
+
+      .bx-10 {
+        border-left: 10px solid black;
+        border-right: 10px solid black;
+      }
+
+      .by-20 {
+        border-top: 20px solid black;
+        border-bottom: 20px solid black;
+      }
+      .ml-260 {
+        margin-left: 260px;
+      }
+      .ml-40 {
+        margin-left: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="square-200 square-cadetblue p-20 border-10">
+      <p class="m-0">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
+        sapien porttitor urna elementum lacinia. In id magna pulvinar, ultricies
+        lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque
+        magna. Phasellus dolor metus, laoreet ac convallis sit amet, efficitur
+        sed dolor.
+      </p>
+    </div>
+    <div class="square-200 square-gold bx-10 by-20 ml-260"></div>
+    <div class="square-200 square-indianred border-10 ml-40"></div>
+
+    <!-- TODOs:
+9. Set the margins for the divs so that each box corner touches the other. (See the goal image)
+-->
+  </body>
+</html>
