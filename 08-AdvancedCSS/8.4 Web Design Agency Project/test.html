@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Demo Float</title>
+    <style>
+      .container {
+        border: 2px solid #333;
+        padding: 10px;
+        width: 400px;
+      }
+      .box {
+        width: 150px;
+        height: 100px;
+        background: lightcoral;
+        float: right;
+        margin: 0 10px 10px 0;
+      }
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container clearfix">
+      <div class="box">Float Left</div>
+      <p>
+        Ini paragraf panjang yang akan mengalir di sekitar kotak merah.
+        Perhatikan bagaimana teks menempel ke kanan kotak dan terus turun sampai
+        melewati bagian bawahnya.
+      </p>
+    </div>
+  </body>
+</html>
