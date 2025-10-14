@@ -12,12 +12,12 @@
       .container {
         color: white;
         border: 5px solid gold;
-        display: flex;
-        flex-direction: row;
+        display: inline-flex;
+        flex-direction: column;
       }
 
-      .container div {
-        flex-basis: 100%;
+      .container > div {
+        flex-basis: 100px;
       }
 
       /*
@@ -27,9 +27,11 @@ children of the .container class.
 
       .red {
         background-color: #eb4d4b;
+        order: 5;
       }
       .orange {
         background-color: #f0932b;
+        order: 4;
       }
       .yellow {
         background-color: #f6e58d;
